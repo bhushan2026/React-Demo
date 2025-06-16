@@ -1,0 +1,167 @@
+/* App.css */
+
+/* General page styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Loading state */
+  .loading {
+    font-size: 24px;
+    text-align: center;
+    color: #333;
+    margin-top: 50px;
+  }
+  
+  /* Error message */
+  .error {
+    color: red;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 50px;
+  }
+  
+  /* Book list container */
+  .book-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 30px;
+  }
+  
+  /* Styling for each book item */
+  .book-item {
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 15px;
+    border-radius: 8px;
+    width: 250px;
+    text-align: left;
+    transition: transform 0.3s;
+  }
+  
+  /* Hover effect on book item */
+  .book-item:hover {
+    transform: translateY(-10px);
+  }
+  
+  /* Book name styling */
+  .book-name {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  /* ISBN styling */
+  .book-isbn {
+    font-size: 16px;
+    color: #666;
+    margin-top: 10px;
+  }
+  
+  /* Category styling */
+  .book-category {
+    font-size: 16px;
+    color: #4CAF50;
+    margin-top: 5px;
+  }
+  
+  /* Description styling */
+  .book-desc {
+    font-size: 14px;
+    color: #888;
+    margin-top: 10px;
+  }
+  
+
+  /* App.css */
+
+/* General form styles */
+.book-form {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    width: 350px;
+    margin: auto;
+    font-family: Arial, sans-serif;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #333;
+  }
+  
+  .form-input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    color: #333;
+  }
+  
+  .form-input:focus {
+    outline: none;
+    border-color: #4CAF50;
+  }
+  
+  button.submit-btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+  }
+  
+  button.submit-btn:hover {
+    background-color: #45a049;
+  }
+  
+  .book-list {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    width: 350px;
+    margin: 30px auto;
+  }
+  
+  .book-item {
+    background-color: #fff;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .book-item .book-name {
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 8px;
+  }
+  
+  .book-item .book-isbn,
+  .book-item .book-category,
+  .book-item .book-desc {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 4px;
+  }
+  
