@@ -12,6 +12,6 @@ A hands-on **demo project** built to explore and understand the **React developm
 🔹 **Mini Apps Inside**:
 - 🏠 **Home** – Showcases API communication with the Django backend.
 - ✅ **ToDo App** – A simple task manager built with state hooks.
-- 🎨 **ColorFill App** – A fun utility to change background colors dynamically.
+- 🎨 **ColorFill App** – A clickable grid where users pick a color and fill any cell interactively.
 
 ---
