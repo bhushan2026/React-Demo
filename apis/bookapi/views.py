@@ -38,12 +38,6 @@ def Home(request):
             return JsonResponse({'message': 'Book deleted successfully'}, status=204)
         except Book.DoesNotExist:
             return JsonResponse({'error': 'Book not found'}, status=404)
-        
-
-def deletebook(request,pk):
-    book = Book.objects.get(isbn = pk)
-    book.delete()
-    return JsonResponse({'message': 'Book deleted successfully'}, status=204)
     
 
 
